@@ -1,0 +1,62 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: navy;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	margin: 50px 0px;
+	font-size: 50px;
+}
+
+#formSection {
+	background-color: lightblue;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	width: 1200px;
+	margin: auto;
+}
+
+p {
+	text-align: center;
+	margin-bottom: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+}
+
+.form {
+	width: fit-content;
+	margin: auto;
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 50px 10px;
+}
+
+.left {
+	text-align: right;
+	font-family: 'Open Sans', sans-serif;
+	width: 300px;
+}
+
+.right {
+	width: 300px;
+}
+
+input[type=text], input[type=email], input[type=number], select{
+	width: 200px;
+	background-color: lightyellow;
+	border-style: none;
+	border-bottom: 2px solid navy;
+}
+
+input[type=radio], input[type=checkbox] {
+	margin-right: 5px;
+}
